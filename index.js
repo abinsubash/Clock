@@ -9,7 +9,7 @@ let time = document.getElementById("Time")
     let minuteValue = date.getMinutes()
     let secondValue = date.getSeconds()
     if(hourValue>12){
-        time.innerHTML = "Am"
+        time.innerHTML = "AM"
     }else{
         time.innerHTML = "PM"
     }
